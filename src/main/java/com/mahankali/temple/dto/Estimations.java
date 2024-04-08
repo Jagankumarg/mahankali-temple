@@ -1,6 +1,5 @@
 package com.mahankali.temple.dto;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Generated;
@@ -10,20 +9,15 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class DonatorsDTO {
+@Data
+public class Estimations {
 
     @Id
-    @GeneratedValue
     private int id;
-    private String name;
-    private String address;
+    private String purpose;
     private String amount;
-    private String status;
     private String comments;
-    private String phoneNumber;
-    private String date;
 }
