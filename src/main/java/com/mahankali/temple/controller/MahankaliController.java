@@ -2,6 +2,7 @@ package com.mahankali.temple.controller;
 
 import com.mahankali.temple.dto.DonatorsDTO;
 import com.mahankali.temple.dto.Estimations;
+import com.mahankali.temple.dto.MembershipDTO;
 import com.mahankali.temple.dto.TotalResponseObject;
 import com.mahankali.temple.service.MahankaliTempleService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,7 @@ public class MahankaliController {
     @Autowired
     MahankaliTempleService mahankaliTempleService;
     TotalResponseObject responseObject = new TotalResponseObject();
+
     @GetMapping("/chandaDonatorsList")
     public ResponseEntity<List<DonatorsDTO>> donatorsList() {
         List<DonatorsDTO> list = mahankaliTempleService.fetchDonatorsList();
@@ -47,12 +49,30 @@ public class MahankaliController {
     public ResponseEntity<TotalResponseObject> totalEstimations() {
 
 
-
         Integer list = mahankaliTempleService.totalEstimations();
         responseObject.setResponse(list);
         return ResponseEntity.ok().body(responseObject);
 
     }
+
+    @GetMapping("/memberShips")
+    public ResponseEntity<List<MembershipDTO>> totalMembership() {
+        List<MembershipDTO> list = mahankaliTempleService.totalMemberships();
+
+        return ResponseEntity.ok().body(list);
+
+    }
+
+    @GetMapping("/membershipsTotal")
+    public ResponseEntity<TotalResponseObject> totalMembershipsEstimations() {
+
+
+        Integer list = mahankaliTempleService.membershipTotal();
+        responseObject.setResponse(list);
+        return ResponseEntity.ok().body(responseObject);
+
+    }
+
 
 
 }
