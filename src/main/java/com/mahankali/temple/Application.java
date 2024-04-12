@@ -36,8 +36,8 @@ public class Application {
         List<DonatorsDTO> list = new LinkedList<>();
         list.add(new DonatorsDTO(1, "Anantula Raji Reddy", "Nagole", "50000", "Pending", "", "9703332464", "30/03/2024"));
         list.add(new DonatorsDTO(2, "Ragiri ChandraMohan Goud", "Nuvvulabanda", "150000", "Pending", "Mahankali Vigraham", "", "30/03/2024"));
-        list.add(new DonatorsDTO(3, "G Narasimha", "Nuvvulabanda", "100000", "Pending", "", "", "30/03/2024"));
-        list.add(new DonatorsDTO(4, "Chintala Aurna Surendar Yadav(Corporator) ", "Nagole", "15000", "Pending", "Granite Required for Construction", "", "30/03/2024"));
+        list.add(new DonatorsDTO(3, "Gurja Narasimha Goud", "Nuvvulabanda", "100000", "Pending", "", "", "30/03/2024"));
+        list.add(new DonatorsDTO(4, "Chintala Aurna Surendar Yadav(Corporator) ", "Nagole", "150000", "Pending", "Granite Required for Construction", "", "30/03/2024"));
         list.add(new DonatorsDTO(5, "Kolan Prabhaker Goud(ChandraShekar Azad)", "Nagole", "50000", "Pending", "", "", "30/03/2024"));
         list.add(new DonatorsDTO(6, "Cheruku Krishna Goud(Chiranheevi Goud)", "Nagole", "80400", "Pending", "201 cement bags", "", "30/03/2024"));
         list.add(new DonatorsDTO(7, "Bandra Suguna(Srinivas, Srikanth)", "Nuvvulabanda", "60000", "Received", "Borewell", "9959159050", "30/03/2024"));
