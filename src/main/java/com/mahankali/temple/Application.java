@@ -3,9 +3,11 @@ package com.mahankali.temple;
 import com.mahankali.temple.dto.DonatorsDTO;
 import com.mahankali.temple.dto.Estimations;
 import com.mahankali.temple.dto.MembershipDTO;
+import com.mahankali.temple.dto.VillageDonationsDTO;
 import com.mahankali.temple.repo.DonatorsRepo;
 import com.mahankali.temple.repo.EstimationsRepo;
 import com.mahankali.temple.repo.MembershipsRepo;
+import com.mahankali.temple.repo.VillageDonationsRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -26,6 +28,9 @@ public class Application {
 
     @Autowired
     private MembershipsRepo membershipsRepo;
+
+    @Autowired
+    private VillageDonationsRepo villageDonationsRepo;
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
@@ -74,8 +79,8 @@ public class Application {
     @PostConstruct
     public void loadEstimations() {
         List<Estimations> estimations = new LinkedList<>();
-        estimations.add(new Estimations(1, "Only Temple Design and Construction", "900000", ""));
-        estimations.add(new Estimations(2, "Temple Design and Construction ", "300000", ""));
+        estimations.add(new Estimations(1, "Temple Design and Construction", "600000", ""));
+        estimations.add(new Estimations(2, "Temple Basement and Compound Wall ", "200000", ""));
         estimations.add(new Estimations(3, "Total Cement Bags ", "0", ""));
         estimations.add(new Estimations(4, "Total Brick loads ", "0", ""));
         estimations.add(new Estimations(5, "Total Sand loads ", "0", ""));
@@ -97,7 +102,21 @@ public class Application {
 		membershipDTOList.add(new MembershipDTO(5,"Nagulancha Krishna","14/468",11000,"Pending","",""));
 		membershipDTOList.add(new MembershipDTO(6,"Ravula Yadagiri MUdhiraj","14/500",11000,"Pending","Chinna Bangaru Pusthe Mettalu",""));
 		membershipDTOList.add(new MembershipDTO(7,"Gaddam Anjalaiah Goud","16/288",11000,"Pending","Pedha Bangaru Pusthe Mettalu",""));
+        membershipDTOList.add(new MembershipDTO(8,"Vecham Subramaniam","9/159",20250,"Pending","Ornament 25 Tulas Silver  ",""));
+        membershipDTOList.add(new MembershipDTO(9,"Palle Venkatesh Goud","9/155",11016,"Pending"," ",""));
+        membershipDTOList.add(new MembershipDTO(10,"Sathuri Allaji Goud","1/136",11000,"Pending"," ",""));
+        membershipDTOList.add(new MembershipDTO(11,"Edure Ramulu(Current Ramulu)","",11000,"Pending"," ",""));
         membershipsRepo.saveAll(membershipDTOList);
+    }
+
+    @PostConstruct
+
+    public void saveVillageDonations(){
+    List<VillageDonationsDTO> villageDonationsDTOS = new ArrayList<>();
+
+        villageDonationsDTOS.add(new VillageDonationsDTO(1,"Chitrala Srinivas Goud","9/151",5000,"Pending"," ",""));
+        villageDonationsDTOS.add(new VillageDonationsDTO(2,"Nadikottu Shivakumar Saloon","6/92",5000,"Pending"," ",""));
+        villageDonationsRepo.saveAll(villageDonationsDTOS);
     }
 
 

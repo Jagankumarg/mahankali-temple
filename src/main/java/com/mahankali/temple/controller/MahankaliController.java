@@ -1,9 +1,6 @@
 package com.mahankali.temple.controller;
 
-import com.mahankali.temple.dto.DonatorsDTO;
-import com.mahankali.temple.dto.Estimations;
-import com.mahankali.temple.dto.MembershipDTO;
-import com.mahankali.temple.dto.TotalResponseObject;
+import com.mahankali.temple.dto.*;
 import com.mahankali.temple.service.MahankaliTempleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -73,6 +70,23 @@ public class MahankaliController {
 
     }
 
+    @GetMapping("/villageDonations")
+    public ResponseEntity<List<VillageDonationsDTO>> villageDonations() {
+        List<VillageDonationsDTO> list = mahankaliTempleService.villageDonationsList();
+
+        return ResponseEntity.ok().body(list);
+
+    }
+
+    @GetMapping("/villageDonationsTotal")
+    public ResponseEntity<TotalResponseObject> villageDonationsTotal() {
+
+
+        Integer list = mahankaliTempleService.vilageDonationsTotal();
+        responseObject.setResponse(list);
+        return ResponseEntity.ok().body(responseObject);
+
+    }
 
 
 }
