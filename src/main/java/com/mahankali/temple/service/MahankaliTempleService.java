@@ -1,9 +1,6 @@
 package com.mahankali.temple.service;
 
-import com.mahankali.temple.dto.DonatorsDTO;
-import com.mahankali.temple.dto.Estimations;
-import com.mahankali.temple.dto.MembershipDTO;
-import com.mahankali.temple.dto.VillageDonationsDTO;
+import com.mahankali.temple.dto.*;
 
 import java.util.List;
 
@@ -24,4 +21,8 @@ public interface MahankaliTempleService {
     List<VillageDonationsDTO> villageDonationsList();
 
     Integer vilageDonationsTotal();
+
+    List<ExpensesDTO> expenses();
+
+    Integer expensesTotal();
 }

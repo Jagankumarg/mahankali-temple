@@ -1,13 +1,7 @@
 package com.mahankali.temple.service.impl;
 
-import com.mahankali.temple.dto.DonatorsDTO;
-import com.mahankali.temple.dto.Estimations;
-import com.mahankali.temple.dto.MembershipDTO;
-import com.mahankali.temple.dto.VillageDonationsDTO;
-import com.mahankali.temple.repo.DonatorsRepo;
-import com.mahankali.temple.repo.EstimationsRepo;
-import com.mahankali.temple.repo.MembershipsRepo;
-import com.mahankali.temple.repo.VillageDonationsRepo;
+import com.mahankali.temple.dto.*;
+import com.mahankali.temple.repo.*;
 import com.mahankali.temple.service.MahankaliTempleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,6 +23,9 @@ public class MahankaliTempleServiceImpl implements MahankaliTempleService {
 
     @Autowired
     private VillageDonationsRepo villageDonationsRepo;
+
+    @Autowired
+    private ExpensesRepo expensesRepo;
 
 
     private static Integer getSum(List<String> amountStringList) {
@@ -102,6 +99,16 @@ public class MahankaliTempleServiceImpl implements MahankaliTempleService {
         return memberShipAmountList.stream().mapToInt(VillageDonationsDTO::getAmount).sum();
     }
 
+    @Override
+    public List<ExpensesDTO> expenses() {
+        return expensesRepo.findAll();
+    }
+
+    @Override
+    public Integer expensesTotal() {
+        List<ExpensesDTO> memberShipAmountList = expensesRepo.findAll();
+        return memberShipAmountList.stream().mapToInt(ExpensesDTO::getAmount).sum();
+    }
 
 
 }

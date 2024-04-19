@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "https://nuvvulabanda-mahanakali-temple-830bea7efb82.herokuapp.com/")
+//@CrossOrigin(origins = "http://localhost:3000/")
 public class MahankaliController {
 
     @Autowired
@@ -87,6 +88,25 @@ public class MahankaliController {
         return ResponseEntity.ok().body(responseObject);
 
     }
+
+    @GetMapping("/expenses")
+    public ResponseEntity<List<ExpensesDTO>> expenses() {
+        List<ExpensesDTO> list = mahankaliTempleService.expenses();
+
+        return ResponseEntity.ok().body(list);
+
+    }
+
+    @GetMapping("/expensesTotal")
+    public ResponseEntity<TotalResponseObject> expensesTotal() {
+
+
+        Integer list = mahankaliTempleService.expensesTotal();
+        responseObject.setResponse(list);
+        return ResponseEntity.ok().body(responseObject);
+
+    }
+
 
 
 }
