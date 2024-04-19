@@ -41,7 +41,7 @@ public class Application {
         list.add(new DonatorsDTO(3, "Gurja Narasimha Goud", "Nuvvulabanda", "100000", "Pending", "", "", "30/03/2024"));
         list.add(new DonatorsDTO(4, "Chintala Aurna Surendar Yadav(Corporator) ", "Nagole", "150000", "Pending", "Granite Required for Construction", "", "30/03/2024"));
         list.add(new DonatorsDTO(5, "Kolan Prabhaker Goud(ChandraShekar Azad)", "Nagole", "50000", "Pending", "", "", "30/03/2024"));
-        list.add(new DonatorsDTO(6, "Cheruku Krishna Goud(Chiranheevi Goud)", "Nagole", "80400", "Pending", "201 cement bags", "", "30/03/2024"));
+        list.add(new DonatorsDTO(6, "Cheruku Krishna Goud(Chiranjeevi Goud)", "Nagole", "80400", "Pending", "201 cement bags", "", "30/03/2024"));
         list.add(new DonatorsDTO(7, "Bandra Suguna(Srinivas, Srikanth)", "Nuvvulabanda", "60000", "Received", "Borewell", "9959159050", "30/03/2024"));
         list.add(new DonatorsDTO(8, "Nari Bikshapathi", "Nuvvulabanda", "50000", "Pending", "", "", "30/03/2024"));
         list.add(new DonatorsDTO(9, "Ganamaina Ramulu(Jagan)", "Nuvvulabanda", "100000", "Pending", "Mahankali Temple Main Door", "9700970900", "30/03/2024"));
@@ -58,7 +58,7 @@ public class Application {
         list.add(new DonatorsDTO(20, "Vaspari Mallesh", "Nagole", "21000", "Pending", "", "", "05/04/2024"));
         list.add(new DonatorsDTO(21, "Palle SitaRamulu Goud", "Nagole", "11000", "Pending", "", "", "05/04/2024"));
         list.add(new DonatorsDTO(22, "Oruganti Ajay & Brothers", "Nagole", "41000", "Pending", "11k cash and centring boxes for slab", "7842111333", "05/04/2024"));
-        list.add(new DonatorsDTO(23, "CH Jangaiah Goud", "Nagole", "51000", "Pending", "", "", "05/04/2024"));
+        list.add(new DonatorsDTO(23, "CH Jangaiah Goud", "Nagole", "24000", "Pending", "Received 27000", "", "05/04/2024"));
         list.add(new DonatorsDTO(24, "Chitrala Jagadish", "Nagole", "40000", "Pending", "100 bags cement", "", "06/04/2024"));
         list.add(new DonatorsDTO(25, "Cheruku Prasad Goud", "Nagole", "0", "Pending", "", "", "07/04/2024"));
         list.add(new DonatorsDTO(26, "Akki Kishore", "Nagole", "25000", "Pending", "", "", "07/04/2024"));
@@ -100,7 +100,7 @@ public class Application {
 		membershipDTOList.add(new MembershipDTO(1,"Cheruku Nageshwar Goud","1/6",11000,"Pending","","",""));
 		membershipDTOList.add(new MembershipDTO(2,"CH Purushotham","2/22",11000,"Pending","","",""));
 		membershipDTOList.add(new MembershipDTO(3,"Macharla Kumar Goud","18/455",11000,"Pending","","",""));
-		membershipDTOList.add(new MembershipDTO(4,"DevaNarayana Sharma","18/459",11000,"Pending","","9396810028",""));
+		membershipDTOList.add(new MembershipDTO(4,"DevaNarayana Sharma","18/459",11000,"Received","","9396810028",""));
 		membershipDTOList.add(new MembershipDTO(5,"Nagulancha Krishna","14/468",11000,"Pending","","",""));
 		membershipDTOList.add(new MembershipDTO(6,"Ravula Yadagiri Mudhiraj","14/500",11000,"Pending","Chinna Bangaru Pusthe Mettalu","",""));
 		membershipDTOList.add(new MembershipDTO(7,"Gaddam Anjalaiah Goud","16/288",11000,"Pending","Pedha Bangaru Pusthe Mettalu","",""));
