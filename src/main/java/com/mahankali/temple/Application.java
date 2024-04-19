@@ -29,6 +29,9 @@ public class Application {
     @Autowired
     private ExpensesRepo expensesRepo;
 
+    @Autowired
+    private AmountReceivedRepo amountReceivedRepo;
+
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
@@ -169,7 +172,7 @@ public class Application {
         villageDonationsDTOS.add(new VillageDonationsDTO(3,"Nadikottu Shivakumar Saloon","6/92",5000,"Pending"," ",""));
         villageDonationsDTOS.add(new VillageDonationsDTO(4,"Bandaru Ramesh","6/92",1000,"Pending"," ",""));
         villageDonationsDTOS.add(new VillageDonationsDTO(5,"Maroju Nagabhushana Chary","11/311",2000,"Pending"," ",""));
-        villageDonationsDTOS.add(new VillageDonationsDTO(6,"Maroju Govardhana Chary","12/308",2000,"Pending"," ",""));
+        villageDonationsDTOS.add(new VillageDonationsDTO(6,"Maroju Govardhana Chary","12/308",2000,"Received"," ",""));
         villageDonationsDTOS.add(new VillageDonationsDTO(7,"Mohammed Yakub","",4000,"Pending","10 Plastic chairs ",""));
         villageDonationsDTOS.add(new VillageDonationsDTO(8,"P Narender Goud","",1116,"Received","",""));
         villageDonationsDTOS.add(new VillageDonationsDTO(9,"B Sanjay kumar","10/193",2000,"Pending"," ",""));
@@ -210,6 +213,23 @@ public class Application {
         expensesList.add(new ExpensesDTO(20,"15/4/24","Curd",50,"","","",""));
 
         expensesRepo.saveAll(expensesList);
+    }
+
+    @PostConstruct
+    public void loadAmountDetails(){
+
+        List<AmountReceivedDTO> amountReceivedDTOS = new ArrayList<>();
+
+        amountReceivedDTOS.add(new AmountReceivedDTO(1,"Bandra Suguna(Srinivas, Srikanth)",58000));
+        amountReceivedDTOS.add(new AmountReceivedDTO(2,"Bangara Srinivas Goud",5000));
+        amountReceivedDTOS.add(new AmountReceivedDTO(3,"Maroju Govardhana Chary",2000));
+        amountReceivedDTOS.add(new AmountReceivedDTO(4,"P Narender Goud",1116));
+        amountReceivedDTOS.add(new AmountReceivedDTO(5,"Sidhu kumar(Auto)",1500));
+        amountReceivedDTOS.add(new AmountReceivedDTO(6,"Gundrathi Raman Goud",1000));
+        amountReceivedDTOS.add(new AmountReceivedDTO(7,"Deva Narayana Sharma",11000));
+        amountReceivedDTOS.add(new AmountReceivedDTO(8,"Edure Ramulu(Current Ramulu)",11000));
+        amountReceivedDTOS.add(new AmountReceivedDTO(8,"CH Jangaiah Goud",27000));
+        amountReceivedRepo.saveAll(amountReceivedDTOS);
     }
 
 

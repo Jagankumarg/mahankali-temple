@@ -25,4 +25,8 @@ public interface MahankaliTempleService {
     List<ExpensesDTO> expenses();
 
     Integer expensesTotal();
+
+    List<AmountReceivedDTO> amountDetails();
+
+    Integer amountDetailsTotal();
 }

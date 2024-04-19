@@ -27,6 +27,9 @@ public class MahankaliTempleServiceImpl implements MahankaliTempleService {
     @Autowired
     private ExpensesRepo expensesRepo;
 
+    @Autowired
+    private AmountReceivedRepo amountReceivedRepo;
+
 
     private static Integer getSum(List<String> amountStringList) {
         List<Integer> intList = amountStringList.stream()
@@ -108,6 +111,17 @@ public class MahankaliTempleServiceImpl implements MahankaliTempleService {
     public Integer expensesTotal() {
         List<ExpensesDTO> memberShipAmountList = expensesRepo.findAll();
         return memberShipAmountList.stream().mapToInt(ExpensesDTO::getAmount).sum();
+    }
+
+    @Override
+    public List<AmountReceivedDTO> amountDetails() {
+        return amountReceivedRepo.findAll();
+    }
+
+    @Override
+    public Integer amountDetailsTotal() {
+        List<AmountReceivedDTO> amountReceivedDTOS = amountReceivedRepo.findAll();
+        return amountReceivedDTOS.stream().mapToInt(AmountReceivedDTO::getAmount).sum();
     }
 
 

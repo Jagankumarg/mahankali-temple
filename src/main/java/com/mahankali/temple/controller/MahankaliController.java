@@ -107,6 +107,24 @@ public class MahankaliController {
 
     }
 
+    @GetMapping("/amountDetails")
+    public ResponseEntity<List<AmountReceivedDTO>> amountDetails() {
+        List<AmountReceivedDTO> list = mahankaliTempleService.amountDetails();
+
+        return ResponseEntity.ok().body(list);
+
+    }
+
+    @GetMapping("/amountDetailsTotal")
+    public ResponseEntity<TotalResponseObject> amountDetailsTotal() {
+
+
+        Integer list = mahankaliTempleService.amountDetailsTotal();
+        responseObject.setResponse(list);
+        return ResponseEntity.ok().body(responseObject);
+
+    }
+
 
 
 }
