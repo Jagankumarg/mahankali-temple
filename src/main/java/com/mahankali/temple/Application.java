@@ -188,26 +188,26 @@ public class Application {
     public void loadExpensesList(){
 
         List<ExpensesDTO> expensesList = new ArrayList<>();
-        expensesList.add(new ExpensesDTO(1,"17/03/24","Pooja",365,"","","",""));
-        expensesList.add(new ExpensesDTO(2,"17/03/24","Tree Cutting",9000,"","","",""));
-        expensesList.add(new ExpensesDTO(3,"17/03/24","Chanda Books Printing",3200,"","","",""));
-        expensesList.add(new ExpensesDTO(4,"17/03/24","JCB & Cleaning",12900,"","","",""));
-        expensesList.add(new ExpensesDTO(5,"31/03/24","Tea & Tiffin",480,"","","",""));
-        expensesList.add(new ExpensesDTO(6,"31/03/24","Tiffin",240,"","","",""));
-        expensesList.add(new ExpensesDTO(7,"07/04/24","Tea",80,"","","",""));
-        expensesList.add(new ExpensesDTO(8,"14/04/24","Pooja Essentials",10329,"","","Pooja Store",""));
-        expensesList.add(new ExpensesDTO(9,"14/04/24","Tea & Snacks",0,"","","",""));
-        expensesList.add(new ExpensesDTO(10,"14/04/24","Stationary",340,"pens,register,billbook,xerox","Jagan","Shop Owner","Padma Rao"));
-        expensesList.add(new ExpensesDTO(11,"14/04/24","JCB Driver Tip",300,"pens,register,billbook,xerox","Jagan","JCB Driver","Murali Goud"));
-        expensesList.add(new ExpensesDTO(12,"14/04/24","JCB charges",3000,"3 hours","","",""));
-        expensesList.add(new ExpensesDTO(13,"14/04/24","Tractor Charges",2000,"2 Trips","","",""));
-        expensesList.add(new ExpensesDTO(14,"14/04/24","Fruits and Garland",0,"","Chinna Goud","Shop Owner",""));
-        expensesList.add(new ExpensesDTO(15,"15/04/24","Advance Towards Construction",50000,"","Temple Committee","Vijay","Temple Committee"));
-        expensesList.add(new ExpensesDTO(16,"15/04/24","Tent house",900,"","","",""));
-        expensesList.add(new ExpensesDTO(17,"15/04/24","Sound & Mike",2000,"","","",""));
-        expensesList.add(new ExpensesDTO(18,"15/04/24","Pooja Fee",0,"","","",""));
-        expensesList.add(new ExpensesDTO(19,"15/04/24","Pooja Day Construction Material",0,"trolley sand,cement and bricks","","",""));
-        expensesList.add(new ExpensesDTO(20,"15/04/24","Curd",50,"","","",""));
+        expensesList.add(new ExpensesDTO(1,"17/3/24","Pooja",365,"","","",""));
+        expensesList.add(new ExpensesDTO(2,"17/3/24","Tree Cutting",9000,"","","",""));
+        expensesList.add(new ExpensesDTO(3,"17/3/24","Chanda Books Printing",3200,"","","",""));
+        expensesList.add(new ExpensesDTO(4,"17/3/24","JCB & Cleaning",12900,"","","",""));
+        expensesList.add(new ExpensesDTO(5,"31/3/24","Tea & Tiffin",480,"","","",""));
+        expensesList.add(new ExpensesDTO(6,"31/3/24","Tiffin",240,"","","",""));
+        expensesList.add(new ExpensesDTO(7,"07/4/24","Tea",80,"","","",""));
+        expensesList.add(new ExpensesDTO(8,"14/4/24","Pooja Essentials",10329,"","","Pooja Store",""));
+        expensesList.add(new ExpensesDTO(9,"14/4/24","Tea & Snacks",0,"","","",""));
+        expensesList.add(new ExpensesDTO(10,"14/4/24","Stationary",340,"pens,register,billbook,xerox","Jagan","Shop Owner","Padma Rao"));
+        expensesList.add(new ExpensesDTO(11,"14/4/24","JCB Driver Tip",300,"pens,register,billbook,xerox","Jagan","JCB Driver","Murali Goud"));
+        expensesList.add(new ExpensesDTO(12,"14/4/24","JCB charges",3000,"3 hours","","",""));
+        expensesList.add(new ExpensesDTO(13,"14/4/24","Tractor Charges",2000,"2 Trips","","",""));
+        expensesList.add(new ExpensesDTO(14,"14/4/24","Fruits and Garland",0,"","Chinna Goud","Shop Owner",""));
+        expensesList.add(new ExpensesDTO(15,"15/4/24","Advance Towards Construction",50000,"","Temple Committee","Vijay","Temple Committee"));
+        expensesList.add(new ExpensesDTO(16,"15/4/24","Tent house",900,"","","",""));
+        expensesList.add(new ExpensesDTO(17,"15/4/24","Sound & Mike",2000,"","","",""));
+        expensesList.add(new ExpensesDTO(18,"15/4/24","Pooja Fee",0,"","","",""));
+        expensesList.add(new ExpensesDTO(19,"15/4/24","Pooja Day Construction Material",0,"trolley sand,cement and bricks","","",""));
+        expensesList.add(new ExpensesDTO(20,"15/4/24","Curd",50,"","","",""));
 
         expensesRepo.saveAll(expensesList);
     }
