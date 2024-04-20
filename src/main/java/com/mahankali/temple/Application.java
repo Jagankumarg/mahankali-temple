@@ -32,6 +32,9 @@ public class Application {
     @Autowired
     private AmountReceivedRepo amountReceivedRepo;
 
+    @Autowired
+    private TempleAmountDetailsRepo templeAmountDetailsRepo;
+
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
@@ -179,7 +182,7 @@ public class Application {
         villageDonationsDTOS.add(new VillageDonationsDTO(10,"Pabbu Narasimha","15/385",5016,"Pending"," ",""));
         villageDonationsDTOS.add(new VillageDonationsDTO(11,"Surugu Upender","15/393",5016,"Pending"," ",""));
         villageDonationsDTOS.add(new VillageDonationsDTO(12,"Lingala Narender Goud","14/449",2000,"Pending"," ",""));
-        villageDonationsDTOS.add(new VillageDonationsDTO(13,"Sidhu kumar(Auto)","",1500,"Received"," ",""));
+        villageDonationsDTOS.add(new VillageDonationsDTO(13,"Sidhu kumar(Auto)","",1000,"Received"," ",""));
         villageDonationsDTOS.add(new VillageDonationsDTO(14,"Gundrathi Raman Goud","10/193",1000,"Received"," ",""));
         villageDonationsDTOS.add(new VillageDonationsDTO(15,"Namani Praveen Kumar","9/180",2222,"Pending"," ","9247329483"));
         villageDonationsDTOS.add(new VillageDonationsDTO(16,"Madhava","",2000,"Pending"," ",""));
@@ -220,16 +223,30 @@ public class Application {
 
         List<AmountReceivedDTO> amountReceivedDTOS = new ArrayList<>();
 
-        amountReceivedDTOS.add(new AmountReceivedDTO(1,"Bandra Suguna(Srinivas, Srikanth)",58000));
-        amountReceivedDTOS.add(new AmountReceivedDTO(2,"Bangara Srinivas Goud",5000));
-        amountReceivedDTOS.add(new AmountReceivedDTO(3,"Maroju Govardhana Chary",2000));
-        amountReceivedDTOS.add(new AmountReceivedDTO(4,"P Narender Goud",1116));
-        amountReceivedDTOS.add(new AmountReceivedDTO(5,"Sidhu kumar(Auto)",1500));
-        amountReceivedDTOS.add(new AmountReceivedDTO(6,"Gundrathi Raman Goud",1000));
-        amountReceivedDTOS.add(new AmountReceivedDTO(7,"Deva Narayana Sharma",11000));
-        amountReceivedDTOS.add(new AmountReceivedDTO(8,"Edure Ramulu(Current Ramulu)",11000));
-        amountReceivedDTOS.add(new AmountReceivedDTO(8,"CH Jangaiah Goud",27000));
+        amountReceivedDTOS.add(new AmountReceivedDTO(1,"Bandra Suguna(Srinivas, Srikanth)",58000,"","Srikanth"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(2,"Bangara Srinivas Goud",5000,"","Srikanth"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(3,"Maroju Govardhana Chary",2000,"","Jagan"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(4,"P Narender Goud",1116,"","Jagan"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(5,"Sidhu kumar(Auto)",1000,"","PadmaRao"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(6,"Gundrathi Raman Goud",1000,"","Jagan"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(7,"Deva Narayana Sharma",11011,"","Jagan"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(8,"Edure Ramulu(Current Ramulu)",11000,"","Krishna"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(9,"CH Jangaiah Goud",27000,"","Murali"));
         amountReceivedRepo.saveAll(amountReceivedDTOS);
+    }
+    @PostConstruct
+    public void templeAccountDetails(){
+
+        List<TempleAmountDetailsDTO> templeAmountDetailsDTO =  new ArrayList<>();
+
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(1,"Temple Bank Account",0));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(2,"Krishna",11000));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(3,"Murali",27000));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(4,"Padma Rao",1000));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(5,"Srikanth",5000));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(6,"Jagan",14488));
+
+        templeAmountDetailsRepo.saveAll(templeAmountDetailsDTO);
     }
 
 

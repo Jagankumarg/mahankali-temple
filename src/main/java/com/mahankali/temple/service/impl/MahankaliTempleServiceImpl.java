@@ -30,6 +30,9 @@ public class MahankaliTempleServiceImpl implements MahankaliTempleService {
     @Autowired
     private AmountReceivedRepo amountReceivedRepo;
 
+    @Autowired
+    private TempleAmountDetailsRepo templeAmountDetailsRepo;
+
 
     private static Integer getSum(List<String> amountStringList) {
         List<Integer> intList = amountStringList.stream()
@@ -122,6 +125,17 @@ public class MahankaliTempleServiceImpl implements MahankaliTempleService {
     public Integer amountDetailsTotal() {
         List<AmountReceivedDTO> amountReceivedDTOS = amountReceivedRepo.findAll();
         return amountReceivedDTOS.stream().mapToInt(AmountReceivedDTO::getAmount).sum();
+    }
+
+    @Override
+    public List<TempleAmountDetailsDTO> templeAmountDetails() {
+        return templeAmountDetailsRepo.findAll();
+    }
+
+    @Override
+    public Integer templeAmountDetailsTotal() {
+        List<TempleAmountDetailsDTO> amountReceivedDTOS = templeAmountDetailsRepo.findAll();
+        return amountReceivedDTOS.stream().mapToInt(TempleAmountDetailsDTO::getAmount).sum();
     }
 
 

@@ -9,15 +9,12 @@ import javax.persistence.Id;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 @Entity
-public class AmountReceivedDTO {
+@Data
+public class TempleAmountDetailsDTO {
 
     @Id
     private int id;
     private String name;
     private int amount;
-    private String date;
-    private String takenBy;
-
 }
