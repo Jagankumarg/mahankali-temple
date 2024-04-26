@@ -19,5 +19,7 @@ public class AmountReceivedDTO {
     private int amount;
     private String date;
     private String takenBy;
+    private String takenDate;
+
 
 }

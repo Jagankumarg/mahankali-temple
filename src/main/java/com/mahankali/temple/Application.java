@@ -163,6 +163,65 @@ public class Application {
         membershipDTOList.add(new MembershipDTO(58,"Maroju Yadagiri Chary ","9/165",11000,"Pending","","","19/4/2024"));
         membershipDTOList.add(new MembershipDTO(59,"Purigilla Venkatesh Goud ","9/165",50000,"Pending","","","19/4/2024"));
         membershipDTOList.add(new MembershipDTO(60,"PuligamPalli Srisailam","9/164",11000,"Pending","","","19/4/2024"));
+        membershipDTOList.add(new MembershipDTO(61,"Peerampalli Narasimha Goud","1/5",11000,"Pending","","","20/4/2024"));
+        membershipDTOList.add(new MembershipDTO(62,"ShivannaGari Dhanarekha","09/157",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(63,"Dasadhi Anil Nayi","11/187",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(64,"Rachamalla Balaraju","11/186",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(65,"Viriyala Anjaiah","11/283",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(66,"Madgula Manga(Lt Srinivas)","11/276",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(67,"Nounde Narsappa","19/488",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(68,"Vallapu Jayalakshmi Raju Chary","19/485",11000,"Received","","9912904837","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(69,"Gajjae Babu Kuruma","19/482",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(70,"Kukkala Vidyasagar ","16/414",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(71,"Kukkala Ramakrishna ","16/417",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(72,"Chilukala Yadaiah Kuruma ","19/409",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(73,"CH Ramulu ","19/489",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(74,"Godhati Raju ","19/492",11000,"Pending","","","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(75,"Gajwel Bikshapathi ","11/279",11000,"Pending","","9110339186","21/4/2024"));
+        membershipDTOList.add(new MembershipDTO(76,"Gangadevi Srikanth(Lt Ramaswamy) ","09/190",11000,"Pending","","","22/4/2024"));
+        membershipDTOList.add(new MembershipDTO(77,"B Shiva(Gold shop) ","11/238",11000,"Pending","","9348922221","22/4/2024"));
+        membershipDTOList.add(new MembershipDTO(78,"B Ravi Yadav ","11/247",11000,"Pending","","9666842536","22/4/2024"));
+        membershipDTOList.add(new MembershipDTO(79,"B Lingaiah ","11/250",11116,"Pending","","9441300976","22/4/2024"));
+        membershipDTOList.add(new MembershipDTO(80,"Konagala Jangaiah ","11/264",11000,"Pending","","6300956861","22/4/2024"));
+        membershipDTOList.add(new MembershipDTO(81,"Maroju Rajyalakshmi ","11/257",11000,"Pending","","9948914675","22/4/2024"));
+        membershipDTOList.add(new MembershipDTO(82,"M Sai Kishore Goud(Jangamma) ","18/460",11000,"Pending","","9948914675","22/4/2024"));
+        membershipDTOList.add(new MembershipDTO(83,"S Niranjan ","10/206",11000,"Pending","","9703937676","23/4/2024"));
+        membershipDTOList.add(new MembershipDTO(84,"Lakshmi ","08/145",11000,"Pending","","","23/4/2024"));
+        membershipDTOList.add(new MembershipDTO(85,"Veerkala Ramesh ","08/144",11000,"Pending","","9441870910","23/4/2024"));
+        membershipDTOList.add(new MembershipDTO(86,"G Ramu Yadav ","08/139",11000,"Pending","","9010398283","23/4/2024"));
+        membershipDTOList.add(new MembershipDTO(87,"A Narasimha Razaka ","07/115",11000,"Pending","","9963081192","23/4/2024"));
+        membershipDTOList.add(new MembershipDTO(88,"C Venkatesh Goud","07/116",11000,"Pending","","9441876296","23/4/2024"));
+        membershipDTOList.add(new MembershipDTO(89,"A Padma","07/117",11000,"Pending","","8978337725","23/4/2024"));
+        membershipDTOList.add(new MembershipDTO(90,"B Naveen kumar","07/119",11000,"Pending","","9908803360","23/4/2024"));
+        membershipDTOList.add(new MembershipDTO(91,"Tanneru Ramaiah(T Nageshwar Rao","07/124",11000,"Pending","","9502124885","23/4/2024"));
+        membershipDTOList.add(new MembershipDTO(92,"Thalla Yadaiah Goud","07/129",11000,"Pending","","9393587019","23/4/2024"));
+        membershipDTOList.add(new MembershipDTO(93,"M Anji Yadav","02/20",11000,"Pending","10 Tons Sand","9963859312","24/4/2024"));
+        membershipDTOList.add(new MembershipDTO(94,"Gudi Harish","06/963",11000,"Pending","","9603860442","24/4/2024"));
+        membershipDTOList.add(new MembershipDTO(95,"Kondapuram Ramulu ","06/98",11000,"Pending","","9346590071","24/4/2024"));
+        membershipDTOList.add(new MembershipDTO(96,"A Ramesh kumar","06/106",15000,"Pending","50 Bags Cement","9912038266","24/4/2024"));
+        membershipDTOList.add(new MembershipDTO(97,"U Yadaiah Goud(Vinod)","06/100",11000,"Pending","","8555947711","24/4/2024"));
+        membershipDTOList.add(new MembershipDTO(98,"V Naveen Sai, Bharath kumar","06/88",11000,"Pending","","9154308515","24/4/2024"));
+        membershipDTOList.add(new MembershipDTO(99,"P Shankaraiah","06/89,90,91",11000,"Pending","","9703563153","24/4/2024"));
+        membershipDTOList.add(new MembershipDTO(100,"Pangol Prem kumar(Yadamma)","01/85",11000,"Pending","","9492693354","24/4/2024"));
+        membershipDTOList.add(new MembershipDTO(101,"Gangarau Veenala Goud","05/69",11000,"Pending","","7382802294","24/4/2024"));
+        membershipDTOList.add(new MembershipDTO(102,"Pathi Madhu","05/70",11000,"Pending","","9849024845","24/4/2024"));
+        membershipDTOList.add(new MembershipDTO(103,"M Mohan Yadav","01/68",15000,"Pending","50 Bags cement","9390420886","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(104,"P Bikshapathi","05/75",11000,"Pending","","9666664132","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(105,"G Gouramma Balaswamy","05/76",11000,"Pending","","9951767935","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(106,"Late Srinivas Goud(Swaroopa)","05/73",11000,"Pending","","7989546097","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(107,"CH Chandraiah","01/42",11000,"Pending","","8074432646","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(108,"T Ileshwar Goud","01/41",11000,"Pending","","9966993122","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(109,"Kampe Komaraiah","01/66",15000,"Pending","50 Bags Cement","9391383923","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(110,"Veeramalla Sathaiah","04/47",11000,"Pending","","9908220276","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(111,"S Venkatesh Goud","04/55",11000,"Pending","","9705343313","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(112,"K Bikshapathi Goud","04/53",11000,"Pending","","9949973687","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(113,"Raju Yadav","04/62",11000,"Pending","","9849396583","25/4/2024"));
+        membershipDTOList.add(new MembershipDTO(114,"N Krishna Goud(Shekhar Goud)","03/36",11000,"Pending","","8179041737","26/4/2024"));
+        membershipDTOList.add(new MembershipDTO(115,"Prahalad Gujjar","03/39",11000,"Pending","","9392156861","26/4/2024"));
+        membershipDTOList.add(new MembershipDTO(116,"B Krishna(Sukkamma)","03/38",11000,"Pending","","7893758005","26/4/2024"));
+        membershipDTOList.add(new MembershipDTO(117,"Ravula Sai(Bikshapathi Goud)","02/17",11000,"Pending","","8801683656","26/4/2024"));
+        membershipDTOList.add(new MembershipDTO(118,"Nethi Ganesh","02/12",11000,"Pending","","8686602960","26/4/2024"));
+        membershipDTOList.add(new MembershipDTO(119,"P Chandrashekar","01/02",11000,"Pending","","9392567100","26/4/2024"));
         membershipsRepo.saveAll(membershipDTOList);
     }
 
@@ -187,6 +246,13 @@ public class Application {
         villageDonationsDTOS.add(new VillageDonationsDTO(15,"Namani Praveen Kumar","9/180",2222,"Pending"," ","9247329483"));
         villageDonationsDTOS.add(new VillageDonationsDTO(16,"Madhava","",2000,"Pending"," ",""));
         villageDonationsDTOS.add(new VillageDonationsDTO(17,"Badri Saalamma","9/168",1111,"Pending"," ",""));
+        villageDonationsDTOS.add(new VillageDonationsDTO(18,"H Gopal","11/242",5000,"Pending"," ",""));
+        villageDonationsDTOS.add(new VillageDonationsDTO(19,"K Akshay","11/241",1116,"Pending"," ",""));
+        villageDonationsDTOS.add(new VillageDonationsDTO(20,"Dasadhi Vishal","11/290",1111,"Pending"," ",""));
+        villageDonationsDTOS.add(new VillageDonationsDTO(21,"S Raju(Dheeraj)","07/125",5000,"Pending"," ",""));
+        villageDonationsDTOS.add(new VillageDonationsDTO(22,"M Shyam Yadav","05/80",5000,"Pending"," ","9347252878"));
+        villageDonationsDTOS.add(new VillageDonationsDTO(23,"Vijay","03/33",5000,"Pending"," ","9121866217"));
+        villageDonationsDTOS.add(new VillageDonationsDTO(24,"Nadigadda Raju","Cutting Shop",4500,"Pending"," 15 Bags Cement",""));
         villageDonationsRepo.saveAll(villageDonationsDTOS);
     }
 
@@ -214,6 +280,7 @@ public class Application {
         expensesList.add(new ExpensesDTO(18,"15/4/24","Pooja Fee",0,"","","",""));
         expensesList.add(new ExpensesDTO(19,"15/4/24","Pooja Day Construction Material",0,"trolley sand,cement and bricks","","",""));
         expensesList.add(new ExpensesDTO(20,"15/4/24","Curd",50,"","","",""));
+        expensesList.add(new ExpensesDTO(21,"22/4/24","Murali",10000,"","Jagan","",""));
 
         expensesRepo.saveAll(expensesList);
     }
@@ -223,15 +290,16 @@ public class Application {
 
         List<AmountReceivedDTO> amountReceivedDTOS = new ArrayList<>();
 
-        amountReceivedDTOS.add(new AmountReceivedDTO(1,"Bandra Suguna(Srinivas, Srikanth)",58000,"","Srikanth"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(2,"Bangara Srinivas Goud",5000,"","Srikanth"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(3,"Maroju Govardhana Chary",2000,"","Jagan"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(4,"P Narender Goud",1116,"","Jagan"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(5,"Sidhu kumar(Auto)",1000,"","PadmaRao"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(6,"Gundrathi Raman Goud",1000,"","Jagan"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(7,"Deva Narayana Sharma",11011,"","Jagan"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(8,"Edure Ramulu(Current Ramulu)",11000,"","Krishna"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(9,"CH Jangaiah Goud",27000,"","Murali"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(1,"Bandra Suguna(Srinivas, Srikanth)",58000,"","Srikanth",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(2,"Bangara Srinivas Goud",5000,"","Srikanth",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(3,"Maroju Govardhana Chary",2000,"","Jagan",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(4,"P Narender Goud",1116,"","Jagan",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(5,"Sidhu kumar(Auto)",1000,"","PadmaRao",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(6,"Gundrathi Raman Goud",1000,"","Jagan",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(7,"Deva Narayana Sharma",11011,"","Jagan",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(8,"Edure Ramulu(Current Ramulu)",11000,"","Krishna",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(9,"CH Jangaiah Goud",27000,"","Murali",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(10,"Vallapu Raju Chary",11000,"","Jagan","24/04/2024"));
         amountReceivedRepo.saveAll(amountReceivedDTOS);
     }
     @PostConstruct
@@ -241,10 +309,10 @@ public class Application {
 
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(1,"Temple Bank Account",0));
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(2,"Krishna",11000));
-        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(3,"Murali",27000));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(3,"Murali",0));
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(4,"Padma Rao",1000));
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(5,"Srikanth",5000));
-        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(6,"Jagan",14488));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(6,"Jagan",42488));
 
         templeAmountDetailsRepo.saveAll(templeAmountDetailsDTO);
     }
