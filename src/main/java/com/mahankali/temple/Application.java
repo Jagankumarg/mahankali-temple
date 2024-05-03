@@ -372,7 +372,7 @@ public class Application {
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(3,"Krishna",22000));
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(4,"Murali",0));
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(5,"Padma Rao",0));
-        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(6,"Srikanth",5000));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(6,"Srikanth",0));
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(7,"Jagan",52387));
 
         templeAmountDetailsRepo.saveAll(templeAmountDetailsDTO);
