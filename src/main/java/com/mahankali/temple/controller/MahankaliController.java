@@ -143,6 +143,21 @@ public class MahankaliController {
 
     }
 
+    @GetMapping("/netAmount")
+    public ResponseEntity<TotalResponseObject> loadNetAmount() {
+
+
+        int expensesAmount = mahankaliTempleService.expensesTotal();
+        int receivedAmountTotal= mahankaliTempleService.amountDetailsTotal();
+        System.out.println("expensesAmount "+expensesAmount);
+        System.out.println("receivedAmountTotal "+receivedAmountTotal);
+
+
+        responseObject.setResponse(receivedAmountTotal - expensesAmount);
+        return ResponseEntity.ok().body(responseObject);
+
+    }
+
 
 
 

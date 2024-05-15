@@ -326,7 +326,7 @@ public class Application {
         expensesList.add(new ExpensesDTO(16,"15/4/24","Tent house",900,"","","",""));
         expensesList.add(new ExpensesDTO(17,"15/4/24","Sound & Mike",2000,"","","",""));
         expensesList.add(new ExpensesDTO(18,"15/4/24","Pooja Fee",0,"","","",""));
-        expensesList.add(new ExpensesDTO(19,"15/4/24","Pooja Day Construction Material",0,"trolley sand,cement and bricks","","",""));
+        expensesList.add(new ExpensesDTO(19,"15/4/24","Pooja Day Construction Material",2850,"trolley sand,cement and bricks","","",""));
         expensesList.add(new ExpensesDTO(20,"15/4/24","Curd",50,"","","",""));
         expensesList.add(new ExpensesDTO(21,"22/4/24","Murali",10000,"","Jagan","",""));
         expensesList.add(new ExpensesDTO(22,"20/4/24","Sai builder",50000,"","","",""));
@@ -336,7 +336,25 @@ public class Application {
         expensesList.add(new ExpensesDTO(26,"28/4/24","Motor(Ambuja)",28500,"","","",""));
         expensesList.add(new ExpensesDTO(27,"28/4/24","Bricks",112200," 10,200 bricks","","",""));
         expensesList.add(new ExpensesDTO(28,"28/4/24","Lock",100," Shilpi Room","Jagan","Shop Owner","Rajesh/Murali"));
-
+        expensesList.add(new ExpensesDTO(29,"05/05/2024","Pooja Samgri and Tiffins",390,"","Chinna","",""));
+        expensesList.add(new ExpensesDTO(30,"05/05/2024","Shilpi Katnam",501,"","Chinna","",""));
+        expensesList.add(new ExpensesDTO(31,"05/05/2024","To Shilpi",10000,"","Jagan","",""));
+        expensesList.add(new ExpensesDTO(32,"06/05/2024","Green Mat",2300,"","Chinna","",""));
+        expensesList.add(new ExpensesDTO(33,"06/05/2024","firewood & Auto",2700,"","Chinna","",""));
+        expensesList.add(new ExpensesDTO(34,"06/05/2024","Cement Labour",600,"","Krishna","",""));
+        expensesList.add(new ExpensesDTO(35,"06/05/2024","Rampam",150,"","Jagan","",""));
+        expensesList.add(new ExpensesDTO(36,"06/05/2024","Cement Cover",1000,"","Jagan","",""));
+        expensesList.add(new ExpensesDTO(37,"09/05/2024","To Shilpi",1500,"","Chinna","",""));
+        expensesList.add(new ExpensesDTO(38,"10/05/2024","To Shilpi",1000,"","Jagan","",""));
+        expensesList.add(new ExpensesDTO(39,"11/05/2024","To Shilpi",57500,"","Jagan","",""));
+        expensesList.add(new ExpensesDTO(40,"11/05/2024","Marker + Thread",90,"","Jagan","",""));
+        expensesList.add(new ExpensesDTO(41,"11/05/2024","To Krishna",21500,"","Chinna","",""));
+        expensesList.add(new ExpensesDTO(42,"30/04/2024","To Contractor",100000,"","Chinna","",""));
+        expensesList.add(new ExpensesDTO(43,"14/05/2024","Thadakalu",4300,"","Chinna","",""));
+        expensesList.add(new ExpensesDTO(44,"14/05/2024","Gampalu, Bindhelu",1285,"","Chinna","",""));
+        expensesList.add(new ExpensesDTO(45,"14/05/2024","To Contractor",33500,"","Chinna(13040)/Jagan(20460)","",""));
+        expensesList.add(new ExpensesDTO(46,"14/05/2024","To Contractor",100000,"","Chinna","",""));
+        expensesList.add(new ExpensesDTO(47,"14/05/2024","To Borewell",54000,"","Srikanth","",""));
         expensesRepo.saveAll(expensesList);
     }
 
@@ -345,21 +363,28 @@ public class Application {
 
         List<AmountReceivedDTO> amountReceivedDTOS = new ArrayList<>();
 
-        amountReceivedDTOS.add(new AmountReceivedDTO(1,"Bandra Suguna(Srinivas, Srikanth)",58000,"","Srikanth",""));
-        amountReceivedDTOS.add(new AmountReceivedDTO(2,"Bangara Srinivas Goud",5000,"","Srikanth",""));
-        amountReceivedDTOS.add(new AmountReceivedDTO(3,"Maroju Govardhana Chary",2000,"","Jagan",""));
-        amountReceivedDTOS.add(new AmountReceivedDTO(4,"P Narender Goud",1116,"","Jagan",""));
-        amountReceivedDTOS.add(new AmountReceivedDTO(5,"Sidhu kumar(Auto)",1000,"","PadmaRao",""));
-        amountReceivedDTOS.add(new AmountReceivedDTO(6,"Gundrathi Raman Goud",1000,"","Jagan",""));
-        amountReceivedDTOS.add(new AmountReceivedDTO(7,"Deva Narayana Sharma",11011,"","Jagan",""));
-        amountReceivedDTOS.add(new AmountReceivedDTO(8,"Edure Ramulu(Current Ramulu)",11000,"","Krishna",""));
-        amountReceivedDTOS.add(new AmountReceivedDTO(9,"CH Jangaiah Goud",27000,"","Murali",""));
-        amountReceivedDTOS.add(new AmountReceivedDTO(10,"Vallapu Raju Chary",11000,"","Jagan","24/04/2024"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(11,"Parvathamma",5000,"","Chinna","21/04/2024"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(12,"Kasetti Krishna",11111,"","Chinna","21/04/2024"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(13,"Somaraju Yadaiah",11000,"","Krishna","29/04/2024"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(14,"Dasadhi Anil Nayi",11000,"","Jagan","01/05/2024"));
-        amountReceivedDTOS.add(new AmountReceivedDTO(15,"Chintala Venugopal",11000,"","Krishna","01/05/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(1,"Temple Initial Amount",500000,"","Temple Committe",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(2,"Bandra Suguna(Srinivas, Srikanth)",54000,"","Srikanth",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(3,"Bangara Srinivas Goud",5000,"","Srikanth",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(4,"Maroju Govardhana Chary",2001,"","Jagan",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(5,"P Narender Goud",1116,"","Jagan",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(6,"Sidhu kumar(Auto)",1000,"","PadmaRao",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(7,"Gundrathi Raman Goud",1000,"","Jagan",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(8,"Deva Narayana Sharma",11011,"","Jagan",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(9,"Edure Ramulu(Current Ramulu)",11000,"","Krishna",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(10,"CH Jangaiah Goud",27000,"","Murali",""));
+        amountReceivedDTOS.add(new AmountReceivedDTO(11,"Vallapu Raju Chary",11000,"","Jagan","24/04/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(12,"Parvathamma",5000,"","Chinna","21/04/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(13,"Kasetti Krishna",11111,"","Chinna","21/04/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(14,"Somaraju Yadaiah",11000,"","Krishna","29/04/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(15,"Dasadhi Anil Nayi",11000,"","Jagan","01/05/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(16,"Chintala Venugopal",11000,"","Krishna","01/05/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(17,"Baddam Ravinder Goud",50002,"","Jagan","06/05/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(18,"Macharla Kumar Goud",11000,"","Murali","06/05/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(19,"Cheruku Chiranjeevi Goud",0,"100 Bags Cement","Krishna","06/05/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(20,"Vasireddy Bharath",11000,"","Murali","14/05/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(21,"Sravanthi",500,"","Murali","14/05/2024"));
+        amountReceivedDTOS.add(new AmountReceivedDTO(22,"Satish kuruma",10000,"","Chinna","14/05/2024"));
         amountReceivedRepo.saveAll(amountReceivedDTOS);
     }
     @PostConstruct
@@ -377,6 +402,8 @@ public class Application {
 
         templeAmountDetailsRepo.saveAll(templeAmountDetailsDTO);
     }
+
+
 
 
 }
