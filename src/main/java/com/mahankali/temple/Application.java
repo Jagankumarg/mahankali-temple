@@ -393,12 +393,12 @@ public class Application {
         List<TempleAmountDetailsDTO> templeAmountDetailsDTO =  new ArrayList<>();
 
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(1,"Temple Bank Account",0));
-        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(2,"Chinna",239086));
-        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(3,"Krishna",22000));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(2,"Chinna",0));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(3,"Krishna",0));
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(4,"Murali",0));
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(5,"Padma Rao",0));
         templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(6,"Srikanth",0));
-        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(7,"Jagan",52387));
+        templeAmountDetailsDTO.add(new TempleAmountDetailsDTO(7,"Jagan",79629));
 
         templeAmountDetailsRepo.saveAll(templeAmountDetailsDTO);
     }
