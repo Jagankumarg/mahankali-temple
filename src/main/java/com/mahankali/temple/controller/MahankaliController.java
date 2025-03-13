@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://nuvvulabanda-mahanakali-temple-830bea7efb82.herokuapp.com/")
+@CrossOrigin(origins = "https://nuvvulabanda-mahankali-temple-cedf5c7f3a45.herokuapp.com/")
 //@CrossOrigin(origins = "http://localhost:3000/")
 public class MahankaliController {
 
