@@ -29,7 +29,7 @@ public class Application {
     @Autowired
     private ExpensesRepo expensesRepo;
 
-    @Autowired
+    @Autowired //test1 test2
     private AmountReceivedRepo amountReceivedRepo;
 
     @Autowired
